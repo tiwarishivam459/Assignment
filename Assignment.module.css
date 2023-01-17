@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.round {
+    background-image: url(https://wallpaperaccess.com/full/5088771.jpg);
+    border-radius: 50%;
+    border: 10px solid aqua;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 150px;
+    left: 600px;
+    box-shadow: 0 0 110px 10px #0ff;
+}
+
+.round .thumbprint {
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+.round h1 {
+    color: white;
+    font-size: xx-small;
+    position: relative;
+    top: 50px;
+    left: 120px;
+    color: slategrey;
+    font-size: 10px;
+}
+
+.flexContainer .clock {
+    float: left;
+    position: relative;
+    right: 1580px;
+}
+
+.round input {
+    position: relative;
+    top: 60px;
+    left: 50px;
+    height: 50px;
+    width: 320px;
+    background-color: black;
+    color: aqua;
+}
+
+.round button {
+    position: relative;
+    top: 110px;
+    left: 130px;
+    height: 70px;
+    width: 170px;
+    background-color: aqua;
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.flexContainer {
+    display: flex;
+    gap: 5px;
+    background-color: black;
+}
+
+.battery {
+    height: 700px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+.list {
+  border: 2px solid aqua;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 80px;
+  position: relative;
+  left: 400px;
+  top: 150px;
+}
+
+#list1 {
+    background-color: aqua;
+    position: relative;
+    left: 400px;
+    top: 150px;
+}
+
+.list2 h1 {
+    position: relative;
+    top: 150px;
+    left: 350px;
+}
+
+.list2 h4 {
+    position: relative;
+    top: 150px;
+    left: 350px;
+}
+
+.list1 {
+  display: inline-flex;
+  flex-direction: column;
+  list-style: none;
+} 
+
+.cardcontainer1 {
+    width: 755px;
+    height: 700px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 700px;
+    background-image: url(https://wallpaperaccess.com/full/5088771.jpg);
+    border: 10px solid aqua;
+    position: relative;
+}
+
+.cardcontainer1 h1 {
+    color: white;
+}
+
+.cardcontainer1 .cardtitle1 {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.cardcontainer1 .cardtitle1 p {
+    color: slategrey;
+}
+
+.cardcontainer1 .cardtitle1 .bold {
+    color: white;
+    font-weight: bold;
+}
+
+.cardcontainer1 .cardbody1 {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    color: aqua;
+    margin-top: 10px;
+}
+
+.cardcontainer1 .row .write {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.image {
+    height: 100px;
+    border: 1px solid aqua;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.cardcontainer1 .write {
+    padding-top: 10px;
+    gap: 0px;
+}
+
+.cardcontainer1 .write .fon {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.cardcontainer1 .write .fon1 {
+    font-size: 350%;
+    font-weight: 400;
+    color: aqua;
+}
+
+.cardcontainer1 .write .fonrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardcontainer1 .row .write .fonrow .fon2 {
+    color: slategrey;
+    font-size: small;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+.list2{
+    position: relative;
+}
+
+.list2 .side {
+    margin-left: 30px;
+    color: slategrey;
+}
